@@ -1,7 +1,7 @@
 class PlacesController < ApplicationController
 
   def index # Index is used to read (display) a list of places (HTTP Method: GET)
-    @place = Place.all #Why is this place and not places? Are classes singular? Where is the class defined and how?
+    @places = Place.all #Why is this place and not places? Are classes singular? Where is the class defined and how?
   end
 
   def show # Show is used to read (display) info for a single place (HTTP Method: GET)
